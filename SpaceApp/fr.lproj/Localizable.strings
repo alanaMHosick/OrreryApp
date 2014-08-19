@@ -1,0 +1,225 @@
+/* 
+  Localizable.strings
+  SpaceApp
+
+  Created by Alana Hosick on 2/12/14.
+  Copyright (c) 2014 Alana Hosick. All rights reserved.
+*/
+
+///////////////////////    Top bar     ///////////////////
+
+"Date" = "Date";
+
+"Find times" = "trouver fois";
+
+///////////////////////    Curiosity    /////////////////////
+
+// page title
+"Curiosity page title" = "Curiosité";
+
+// curiosity sol count
+"Curiosity's trip: Day number %@" = "Le voyage de Curiosité: nombre de jours %@";
+
+//current weather
+"THE CURRENT WEATHER" = "Le temps actuel";
+
+//on mars is
+"ON MARS IS:" = "sur Mars est:";
+
+// atmosphere
+"SUNNY" = "ensoleillé";
+
+// low temperature in F
+"Low Temperature: %@ F" = "basse température: %@ F";
+
+// high temperature in F
+"High Temperature: %@ F" = "haute température: %@ F";
+
+// pressure
+"The pressure is %@ Pa and getting %@." = "La pression est %@ Pa et obtenir %@.";
+
+// higher
+"HIGHER" = "supérieur";
+
+// lower
+"LOWER" = "inférieur";
+
+//last updated
+"Last updated: %@ (Earth time)" = "derniere mise a jour: %@ (Temps de la Terre)";
+
+///////////////////////    View    /////////////////////
+
+
+// page title
+"View page title" = "Voir";
+
+"Midnight" = "Minuit";
+
+"e v e n i n g" = "s o i r é e";
+
+"m o r n i n g" = "m a  t  i n";
+
+///////////////////////    Sun    /////////////////////
+
+
+// page title
+"Sun page title" = "Soleil";
+
+// submit button
+"find sunrise/sunset times" = "lever / coucher du soleil";
+
+"latitude" = "latitude";
+
+"longitude" = "longitude";
+
+"daylight savings?" = "l'heure d'été?";
+
+"date" = "date";
+
+"Sunrise:   %@" = "lever du soleil:  %@";
+
+"Sunset:   %@" = "Coucher de soleil:  %@";
+
+///////////////////////    Bodies    /////////////////////
+
+
+// page title
+"Bodies page title" = "Planètes";
+
+// example Mercury on 2014/2/14
+"%@   on   %@:" = "%@   sur   %@:";
+
+"%@ kilometers from Earth" = "%@ Kilomètres de la Terre";
+
+"Highest point in the sky:" = "Point le plus haut dans le ciel:";
+
+"around %d:00. (Astronomical time)" = "autour de %d: 00 (temps astronomique).";
+
+"The sun will rise in the morning and set in the evening." = "Le soleil se lèvera le matin et mis dans la soirée.";
+
+"no location data is available for that body at this time" = "pas de données de localisation est disponible pour que le corps en ce moment";
+
+"The Earth can be seen most of the time.  Usually you look down." = "La Terre peut être considérée la plupart du temps. Habituellement, vous regardez vers le bas.";
+
+//find rise set times
+"find rise/set times" = "trouver lever / coucher heures";
+
+// page title
+"rise/set" = "lever / coucher";
+
+"Sunrise / Sunset" = "lever / coucher du soleil";
+
+// pieces
+// example "Mercury will take the same path accross the sky as the sun
+
+"will take the same path across the sky as the sun" = "prendra le même chemin dans le ciel comme le soleil";
+
+"takes the same path across the sky as the sun" = "prend le même chemin dans le ciel comme le soleil";
+
+"took the same path across the sky as the sun" = "a pris le même chemin dans le ciel comme le soleil";
+
+
+// example
+// "Mercury will rise in the morning, will reach its highest point in the afternoon, and will set in the evening".
+"will rise" = "va augmenter";
+
+"rises" = "lève";
+
+"rose" = "leva";
+
+
+"will set" = "couchera";
+
+"sets" = "couche";
+
+"set" = "coucha";
+
+
+"will reach" = "atteindra";
+
+"reaches" = "atteint";
+
+"reached" = "atteint";
+
+
+"in the early morning" = "en début de matinée";
+
+"in the morning" = "le matin";
+
+"in the afternoon" = "dans l'après-midi";
+
+"in the evening" = "dans la soirée";
+
+"in the middle of the night" = "dans le milieu de la nuit";
+
+"and" =  "et";
+
+
+//"%@ %@.  %@ %@ %@, %@ %@ %@." = "%@ %@.  %@ %@ %@ %@ %@ %@.";
+
+
+///////////////////////    Orrery    /////////////////////
+
+
+// page title
+"Orrery page title" = "Planétaire";
+
+
+//////////////////////     Planets      ///////////////////////
+
+"sun" = "le Soleil";
+"mercury" = "Mercure";
+"venus" = "Vénus";
+"earth" = "Terre";
+"moon" = "Lune";
+"mars" = "Mars";
+"ceres" = "Ceres";
+"jupiter" = "Jupiter";
+"saturn" = "Saturne";
+"uranus" = "Uranus";
+"neptune" = "Neptune";
+"pluto" = "Pluton";
+"eris" = "Eris";
+
+//////////////////////   Planet rise   //////////////////////
+
+"%@ will rise in the early morning and will set in the afternoon" = "va augmenter en début de matinée et fixera l'après-midi";
+"%@ rises in the early morning and sets in the afternoon" = "s'élève en début de matinée et définit dans l'après-midi";
+"%@ rose in the early morning and set in the afternoon" = "rose en début de matinée et l'après-midi ensemble dans";
+
+"%@ will rise in the early morning and will set in the evening" = "va augmenter en début de matinée et sera mis dans la soirée";
+"%@ rises in the early morning and sets in the evening" = "s'élève en début de matinée et définit dans la soirée";
+"%@ rose in the early morning and set in the evening" = "rose en début de matinée et mis dans la soirée";
+
+"%@ will rise in the morning and will set in the evening" = "se lever le matin et sera mis dans la soirée";
+"%@ rises in the morning and sets in the evening" = "se lève le matin et se couche à la soirée";
+"%@ rose in the morning and set in the evening" = "rose le matin et mis dans la soirée";
+
+"%@ will rise in the afternoon and will set in the early morning" = "passera dans l'après-midi et sera mis en début de matinée";
+"%@ rises in the afternoon and sets in the early morning" = "s'élève dans l'après-midi et définit en début de matinée";
+"%@ rose in the afternoon and set in the early morning" = "rose dans l'après-midi et mis en début de matinée";
+
+"%@ will rise in the afternoon and will set in the middle of the night" = "passera dans l'après-midi et sera situé dans le milieu de la nuit";
+"%@ rises in the afternoon and sets in the middle of the night" = "s'élève dans l'après-midi et définit dans le milieu de la nuit";
+"%@ rose in the afternoon and set in the middle of the night" = "rose dans l'après-midi et placé au milieu de la nuit";
+
+"%@ will rise in the evening and will set in the early morning" = "augmentera dans la soirée et mettra en début de matinée";
+"%@ rises in the evening and sets in the early morning" = "s'élève dans la soirée et ensembles en début de matinée";
+"%@ rose in the evening and set in the early morning" = "rose dans la soirée et mis en début de matinée";
+
+"%@ will rise in the middle of the night and will set in the early morning" = "passera dans le milieu de la nuit et sera mis en début de matinée";
+"%@ rises in the middle of the night and sets in the early morning" = "s'élève au milieu de la nuit et ensembles en début de matinée";
+"%@ rose in the middle of the night and set in the early morning" = "rose dans le milieu de la nuit et mettre en début de matinée";
+
+"%@ will rise in the middle of the night and will set in the morning" = "passera dans le milieu de la nuit et fixera le matin";
+"%@ rises in the middle of the night and sets in the morning" = "s'élève au milieu de la nuit et définit le matin";
+"%@ rose in the middle of the night and set in the morning" = "rose dans le milieu de la nuit et mettre le matin";
+
+
+
+
+//////////////////////////   error   ////////////////////////////
+
+"Network Error" = "Erreur réseau";
+"Cannot reach %@" = "Vous ne pouvez pas atteindre %@";
+"Dismiss" = "rejeter";

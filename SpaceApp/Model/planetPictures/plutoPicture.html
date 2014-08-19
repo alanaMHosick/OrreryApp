@@ -1,0 +1,30 @@
+<html><body><script>alert('You are no longer logged into AOL. Please log in again.');
+var targetURL = 'http://my.screenname.aol.com/_cqr/login/login.psp?sitedomain=sns.webmail.aol.com&lang=en&locale=us&authLev=0&siteState=ver%3a4%7crt%3aSTANDARD%7cat%3aSNS%7cld%3amail.aol.com%7cuv%3aAOL%7clc%3aen-us%7cmt%3aANGELIA%7csnt%3aScreenName%7csid%3a826cc6e4-7c11-4acb-ba40-4f89aa60f903&offerId=newmail-en-us-v2&seamless=novl';
+
+function FindMainWindow() {
+	for (var w = window; true; w = w.parent) {
+		if (w.GetMainWindow)
+			return w.GetMainWindow();
+		if (w.parent == w)
+			break;
+	}
+
+	try {
+		for (w = opener; w != null && !w.closed; w = w.opener)
+			if (w.GetMainWindow)
+				return w.GetMainWindow();
+	} 
+	catch (exc) {
+		return null;
+	}
+	return null;
+}
+
+var mw = FindMainWindow();
+if (mw && !mw.closed)
+	mw.top.location = targetURL;
+else {
+	var w = window.open(targetURL, '', '', true);
+	if ((w == null) && (window == top)) window.location = targetURL; 
+}
+</script></body></html>

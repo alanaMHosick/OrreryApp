@@ -1,0 +1,406 @@
+/* 
+  Localizable.strings
+  SpaceApp
+
+  Created by Alana Hosick on 2/12/14.
+  Copyright (c) 2014 Alana Hosick. All rights reserved.
+*/
+///////////////////////    Top bar     ///////////////////
+
+"Date" = "التاريخ";
+
+"Find times" = "الوقت";
+
+///////////////////////    Curiosity    /////////////////////
+
+// page title
+"Curiosity page title" = "إستطلاع";
+
+// curiosity sol count
+"Curiosity's trip: Day number %@" = "عدد أيام الرحلة:%@ يوم";
+
+//current weather
+"THE CURRENT WEATHER" = "الطقس الحالي";
+
+//on mars is
+"ON MARS IS:" = " على كوكب المريخ:";
+
+// atmosphere
+"SUNNY" = "مشمس";
+
+// low temperature in F
+"Low Temperature: %@ %@" = "إنخفاض درجة الحرارة: %@ %@";
+
+// high temperature in F
+"High Temperature: %@ %@" = "إرتفاع درجة الحرارة: %@ %@";
+
+// pressure
+"The pressure is %@ Pa and getting %@." = "معدل الضغط %@ %@";
+
+
+// higher
+"HIGHER" = "مرتفع";
+
+// lower
+"LOWER" = "منخفض";
+
+//last updated
+"Last updated: %@ (Earth time)" = "آخر تحديث: %@ (الوقت على كوكب الأرض)";
+
+///////////////////////    View    /////////////////////
+
+
+// page title
+"View page title" = "المنظر";
+
+"Midnight" = "منتصف الليل";
+
+"e v e n i n g" = "مساءً";
+
+"m o r n i n g" = "صباحاً";
+
+///////////////////////    Sun    /////////////////////
+
+
+// page title
+"Sun page title" = "الشمس";
+
+// submit button
+"find sunrise/sunset times" = "وقت الشروق / وقت الغروب";
+
+"latitude" = "خط العرض";
+
+"longitude" = "خط الطول";
+
+"daylight savings?" = "حفظ اليوم الضوئي؟";
+
+"date" = "التاريخ";
+
+"Sunrise:   %@" = "الشروق:  %@";
+
+"Sunset:   %@" = "الغروب:  %@";
+
+///////////////////////    Bodies    /////////////////////
+
+
+// page title
+"Bodies page title" = "الكواكب";
+
+// example Mercury on 2014/2/14
+"%@ on %@:" = "%@:      %@";
+
+"%@ %@ from Earth" = "%@ %@ من كوكب الأرض";
+
+"Distance" = "مسافة";
+"  Distance" = "  مسافة  ";
+
+"kilometers" = "كم";
+
+"miles" = "كيلومتر";
+
+"light minutes" = "دقيقة ضوء";
+
+"Highest point in the sky:" = "أعلى نقطة في السماء:";
+
+"around %d:00. (Astronomical time)" = "تقريباً %d:00";
+
+"The sun will rise in the morning and set in the evening." = "الشمس سوف تشرق صباحاً وستغرب مساءً.";
+
+"no location data is available for that body at this time" = "لايوجد بيانات لموقع هذا الجسم حالياً";
+
+"The Earth can be seen most of the time.  Usually you look down." = "رؤية كوكب الأرض متاحة في جميع الأوقات.";
+
+//find rise set times
+"find rise/set times" = "وقت الشروق / وقت الغروب";
+
+// page title
+"rise/set" = "الشروق / الغروب";
+
+// pieces
+// example "Mercury will take the same path accross the sky as the sun
+
+"will take the same path across the sky as the sun" = "سوف يؤخذ نفس المنحنى من شروق الشمس إللى غروبها";
+
+"takes the same path across the sky as the sun" = "يؤخذ نفس المنحنى من شروق الشمس إلى غروبها";
+
+"took the same path across the sky as the sun" = "تم أخذ نفس المنحنى من شروق الشمس إلى غروبها";
+
+
+// example
+// "Mercury will rise in the morning, will reach its highest point in the afternoon, and will set in the evening".
+"will rise" = "سوف تشرق";
+
+"rises" = "سوف تشرق";
+
+"rose" = "شرقت";
+
+
+"will set" = "سوف تغرب";
+
+"sets" = "تغرب";
+
+"set" = "غربت";
+
+
+"will reach" = "سوف تصل";
+
+"reaches" = "تصل";
+
+"reached" = "وصلت";
+
+
+"in the early morning" = "في الصباح الباكر";
+
+"in the morning" = "في الصباح";
+
+"in the afternoon" = "في الظهيرة";
+
+"in the evening" = "في المساء";
+
+"in the middle of the night" = "في منتصف الوقت";
+
+"and" =  "و";
+
+
+//"%@ %@.  %@ %@ %@, %@ %@ %@." = "%@ %@.  %@ %@ %@ %@ %@ %@.";
+
+
+///////////////////////    Orrery    /////////////////////
+
+
+// page title
+"Orrery page title" = "النظام الشمسي";
+
+
+//////////////////////     Planets      ///////////////////////
+
+"sun" = "الشمس";
+"mercury" = "عطارد";
+"venus" = "الزهرة";
+"earth" = "الأرض";
+"moon" = "القمر";
+"mars" = "المريخ";
+"ceres" = "سيريس";
+"jupiter" = "المشترى";
+"saturn" = "زحل";
+"uranus" = "أورانوس";
+"neptune" = "نبتون";
+"pluto" = "بلوتو";
+"eris" = "إيريس";
+
+
+"planet" = "  كوكب";
+"dwarf planet" = "  كوكب صغير";
+"satellite" = "  ضوء القمر";
+"star" = "  نجمة";
+"  Class"= "     صنف ";
+
+
+//////////////////////   Planet rise   //////////////////////
+
+
+
+
+"%@ will rise in the early morning and will set in the afternoon" = "سوف يشرق كوكب %@ في الصباح الباكر وسيغرب بعد الظهر";
+"%@ rises in the early morning and sets in the afternoon" = "يشرق كوكب %@ في الصباح الباكر وسيغرب بعد الظهر";
+"%@ rose in the early morning and set in the afternoon" = "شرُق كوكب %@ في الصباح الباكر وسيغرب بعد الظهر";
+
+"%@ will rise in the early morning and will set in the evening" = "سوف يشرق كوكب %@ في الصباح الباكر وسيغرب مساءً";
+"%@ rises in the early morning and sets in the evening" = "يشرق كوكب %@ صباحاً وسيغرب مساءً";
+"%@ rose in the early morning and set in the evening" = "شرق كوكب %@ صباحاً وسيغرب مساءً";
+
+"%@ will rise in the morning and will set in the evening" = "سوف يشرق كوكب %@ صباحاً وسيغرب مساءً ";
+"%@ rises in the morning and sets in the evening" = "يشرق كوكب %@ في الصباح وسيغرب مساءً ";
+"%@ rose in the morning and set in the evening" = "شرق كوكب %@ في الصباح وسيغرب مساءً";
+
+"%@ will rise in the afternoon and will set in the early morning" = "سوف يشرق كوكب %@ بعد الظهر وسيغرب في الصباح الباكر ";
+"%@ rises in the afternoon and sets in the early morning" = "يشرق كوكب %@ بعد الظهر وسيغرب في الصباح الباكر ";
+"%@ rose in the afternoon and set in the early morning" = "شرُق كوكب %@ بعد الظهر وسيغرب في الصباح الباكر ";
+
+"%@ will rise in the afternoon and will set in the middle of the night" = "سوف يشرق كوكب %@ بعد الظهروسيغرب في منتصف الليل ";
+"%@ rises in the afternoon and sets in the middle of the night" = "يشرق كوكب %@ بعد الظهر وسيغرب في منتصف الليل ";
+"%@ rose in the afternoon and set in the middle of the night" = "شرُق كوكب %@ في الصباح وسيغرب في منتصف الليل";
+
+"%@ will rise in the evening and will set in the early morning" = "سوف يشرق كوكب %@ مساءً وسيغرب في الصباح الباكر ";
+"%@ rises in the evening and sets in the early morning" = "يشرق كوكب %@ مساءً وسيغرب في الصباح الباكر ";
+"%@ rose in the evening and set in the early morning" = "شرُق كوكب %@ مساءً وسيغرب في الصباح الباكر";
+
+"%@ will rise in the middle of the night and will set in the early morning" = "سوف يشرق كوكب %@ في منتصف الليل وسيغرب في الصباح الباكر ";
+"%@ rises in the middle of the night and sets in the early morning" = "يشرق كوكب %@ في منصف الليل وسيغرب في الصباح الباكر ";
+"%@ rose in the middle of the night and set in the early morning" = "شرُق كوكب %@ في منتصف الليل وسيغرب في الصباح الباكر ";
+
+"%@ will rise in the middle of the night and will set in the morning" = "سوف يشرق كوكب %@ في منتصف الليل وسيغرب صباحاً ";
+"%@ rises in the middle of the night and sets in the morning" = "يشرق كوكب %@ في منصف الليل وسيغرب صباحاً ";
+"%@ rose in the middle of the night and set in the morning" = "شرق كوكب %@ في منتصف الليل وسيغربصباحاً ";
+
+"Approximate Times" = "أوقات تقريبية";
+"  Rise" = "   شروق ";
+"  Transit" = "   عبور ";
+"  Set" = "   نزل ";
+"  Declination" = "   دائرة الانحراف الاستوائي ";
+"  Right ascension" = "   مطلع مستقيم ";
+
+////////////////   Settings       //////////////
+
+"Settings" = "إعدادات";
+
+"Choose the units for distance" = "اختيار وحدات لمسافة";
+
+"Kilometers" = "كيلومتر";
+
+"Miles" = "ميل";
+
+"Light Minutes" = "دقيقة ضوئية";
+
+"Choose the units for temperature" = "اختيار وحدات لدرجة الحرارة";
+
+"Celsius" = "سيليزية";
+
+"Fahrenheit" = "فهرنهايت";
+
+"Kelvin" = "كلفن";
+
+
+
+
+///////////////////////////////////////////////////////////
+
+
+"%@ from Earth" = "%@ من الأرض ";
+
+"from Earth" = "من الأرض ";
+
+"GPS Data" = "جي بي اس";
+
+"timezone" = "توقيت";
+
+"Timezone" = "توقيت";
+
+
+
+"elevation (meters)" = "إرتفاع (أمتار)";
+
+"  %d   %@  " = "   %d   وقيت جرينيتش  @%   ";
+
+"  %d   timezoneName  " = "  %d  توقيت جرينتش   ";
+
+//"GMT - %@" = "توقيت جرينيتش - @%";
+
+"Image Credit:" = "مصدر الصورة";
+
+"Image Credits" = "مصدر الصورة";
+
+"Data Credits" = "مصدر البيانات";
+
+"Language Credits" = "الترجمة بواسطة";
+
+"Info" = "معلومات";
+
+"Please enter a valid longitude." = "أدخل خط الطول";
+
+"Please enter a valid latitude." = "ادخل خط العرض";
+
+"Please enter a valid timezone" = "أدخل التوقيت";
+
+"The date you entered is out of range" = "التاريخ الذي تم إدخاله غير متاح";
+
+"Error" = "خطأ";
+
+"Network Error" = "خطأ في الشبكة";
+
+"Dismiss" = "رفض";
+
+"Eclipse" = "كسوف";
+
+"Solar Eclipse" = "كسوف الشمس";
+
+"Lunar Eclipse" = "كسوف القمر";
+
+"Total eclipse" = "الكسوف الكلي";
+
+"Partial eclipse" = "الكسوف الجزئي";
+
+"Annular eclipse" = "الكسوف الحلقي";
+
+"Penumbral" = "الناقص";
+
+"Visible from: %@" = "مختفي من %@";
+
+"Visible from: %@, %@" = "مختفي من %@, %@";
+
+"Visible from: %@, %@, %@" = "مختفي من %@, %@, %@";
+
+"Australia" = "أستراليا";
+
+"Africa" = "أفريقيا";
+
+"Asia" = "آسيا";
+
+"North America" = "شمال أمريكا";
+
+"Pacific" = "الهادي";
+
+"Antarctica" = "القطب الجنوبي";
+
+"Europe" = "أوروبا";
+
+"America" = "أمريكا";
+
+
+
+
+"The Arabic translation in the Arabic version was done by Belal Mansour." = "تمت الترجمة للغة العربية بواسطة بلال منصور";
+
+
+/*
+"Caluclations for planetary rise, transit, and set are based on an algorithm from 'Astronomical Algorithms' by Jean Meeus.'" = "";
+
+"The webservice used to get planetary coordinates was written by Davy Wybiral and can be found at http://www.astro-phys.com/api.  The ephemeris being used is DE406." = "";
+
+"The webservice used to get the weather conditions on Mars was found on open.nasa.gov." = "";
+
+"For some of the calculations, sunrise and sunset are needed.  The webservice used for this data is www.earthtools.org." = "";
+
+"Calculations for planetary rise, set, and transit give results for timezone GMT.  If no timezone is entered the times for events will be off by the amount of the timezone offset.  The webservice used to fill in the timezone automatically as well as the elevation can be found at maps.googleapis.com" = "";
+
+"The times for planetary rise, transit and set are estimates.  Some of the variables that go into the calculation could not be computed with a high degree of accuracy.  The results tend to be within five or ten minutes of other sources but in some cases, could be more." = "";
+
+"The values for right ascension and declination are not exact.  They are estimates based on the angle of the planet to the sun and the earth to the sun." = "";
+
+"The data for solar and lunar eclipses was found on http://eclipse.gsfc.nasa.gov" = "";
+
+
+
+"The image of the sun is a NASA/ESA image. This Extreme Ultraviolet Imaging Telescope (EIT) image was taken on Sept. 14,1999.  Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm on February 26, 2014" = "";
+
+"The image of the planet Mercury is a NASA image taken on the MESSENGER mission in 2008.  Accessed from http://www.nasa.gov/connect/chat/messenger_chat.html on February 25, 2014" = "";
+
+"The image of the planet Venus is a NASA image composite.  It was taken on both the Magellan mission and the pioneer orbiter mission.  The images were put together with simulated color.  Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=6183 on February 25, 2014" = "";
+
+"The image of the planet Earth is a NASA image.  It was taken December 22, 1968, by the Apollo 8 crew. Accessed from http://earthobservatory.nasa.gov/IOTD/view.php?id=36019 on February 25, 2014" = "";
+
+"The image of Earth's moon is a NASA image.  It was taken by the Lunar Reconnaissance Orbiter. Accessed from http://photojournal.jpl.nasa.gov/catalog/PIA14021 on February 25, 2014" = "";
+
+"The image of Mars is a ESA image.  The image was acquired by the Visual Monitoring Camera on the Mars orbiter during the Mars Express Mission. Accessed from https://solarsystem.nasa.gov/multimedia/gallery on February 25, 2014" = "";
+
+"The image of Jupiter is a NASA image. This image is composed of four images taken by NASA's Cassini spacecraft on December 7th 2000. Accessed from https://solarsystem.nasa.gov/multimedia/gallery/Full_Disk_Jupiter1.jpg on February 25, 2014" = "";
+
+"The image of Saturn is a NASA image. It was taken in early October 2004, Cassini captured a series of images that have been composed into this large global natural color view of Saturn and its rings. Accessed from https://solarsystem.nasa.gov/multimedia/gallery/True_Saturn.jpg on February 25, 2014" = "";
+
+"The image of Uranus is a NASA image. This image was taken by the Hubble Space Telescope on January 1, 2006.  Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=10189 on February 25, 2014" = "";
+
+"The image of Neputune is a NASA image. This picture of Neptune was produced from the last whole planet images taken through the green and orange filters on the Voyager 2 narrow angle camera. Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=2424 on February 25, 2014" = "";
+
+"The image of Pluto is a ESA image.   The image was taken by the European Space Agency's Faint Object Camera on February 21, 1994  Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=10723 on February 25, 2014" = "";
+
+"The image of Ceres is a NASA image.  It was taken by the hubble telescope in 2004. Accessed from https://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=10723 on February 25, 2014" = "";
+
+"The image of Eris is a NASA image. This is not a photo but an artist's rendering. http://http://discovery.nasa.gov/SmallWorlds/images/Eris. on February 25, 2014" = "";
+
+"The image of the Martian landscape (Shown on the Curisoty screen) is a NASA image.  It was taken by Curiosity on February 14, 2013 during the Mars Science Laboratory Mission. Accessed from http://photojournal.jpl.nasa.gov/catalog/PIA17603 on February 25, 2014" = "";
+
+"The image of the globular cluster Terzan 7 (Shown as the background of this screen) is a NASA/ESA image taken by the Hubble telescope.  Accessed from http://www.nasa.gov/content/goddard/hubble-looks-into-terzan-7 on February 26, 2014" = "";
+
+"The solar system icons artwork was done by Dan Wiersema and are free for non-commercial use.  The icons were taken from http://icons.iconseeker.com on January 15, 2014.  The licence can be found at http://icons.iconseeker.com/license/solar-system/readme.txt" = "";
+
+*/

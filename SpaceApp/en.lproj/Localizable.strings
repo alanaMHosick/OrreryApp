@@ -1,0 +1,106 @@
+/* 
+  Localizable.strings
+  SpaceApp
+
+  Created by Alana Hosick on 2/12/14.
+  Copyright (c) 2014 Alana Hosick. All rights reserved.
+*/
+///////////////////////    Top bar     ///////////////////
+
+"Date" = "Date";
+
+///////////////////////    Curiosity    /////////////////////
+
+// page title
+"Curiosity page title" = "Curiosity";
+
+// curiosity sol count
+"Curiosity's trip: Day number %@" = "Curiosity's trip: Day number %@";
+
+//on mars is
+"ON MARS IS:" = "ON MARS IS:";
+
+// atmosphere
+"SUNNY" = "SUNNY";
+
+// low temperature in F
+"Low Temperature: %@ F" = "Low Temperature: %@ F";
+
+// high temperature in F
+"High Temperature: %@ F" = "High Temperature: %@ F";
+
+// pressure
+"The pressure is %@ Pa and getting %@." = "The pressure is %@ Pa and getting %@.";
+
+// higher
+"HIGHER" = "higher";
+
+// lower
+"LOWER" = "lower";
+
+//current weather
+"THE CURRENT WEATHER" = "THE CURRENT WEATHER";
+
+//last updated
+"Last updated: %@ (Earth time)" = "Last updated: %@ (Earth time)";
+
+///////////////////////    View    /////////////////////
+
+
+// page title
+"View page title" = "View";
+
+"Midnight" = "Midnight";
+
+"e v e n i n g" = "e v e n i n g";
+
+"m o r n i n g" = "m o r n i n g";
+
+///////////////////////    Sun    /////////////////////
+
+
+// page title
+"Sun page title" = "Sun";
+
+// submit button
+"find sunrise/sunset times" = "find sunrise/sunset times";
+
+"latitude" = "latitude";
+
+"longitude" = "longitude";
+
+"daylight savings?" = "daylight savings?";
+
+"date" = "date";
+
+"Sunrise:   %@" = "Sunrise:   %@";
+
+"Sunset:   %@" = "Sunset:   %@";
+
+
+///////////////////////    Bodies    /////////////////////
+
+
+// page title
+"Bodies page title" = "Bodies";
+
+
+//////////////////////     Planets      ///////////////////////
+
+"sun" = "The Sun";
+"mercury" = "Mercury";
+"venus" = "Venus";
+"earth" = "Earth";
+"moon" = "The Moon";
+"mars" = "Mars";
+"ceres" = "Ceres";
+"jupiter" = "Jupiter";
+"saturn" = "Saturn";
+"uranus" = "Uranus";
+"neptune" = "Neptune";
+"pluto" = "Pluto";
+"eris" = "Eris";
+
+
+
+

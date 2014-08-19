@@ -1,0 +1,233 @@
+/* 
+  Localizable.strings
+  SpaceApp
+
+  Created by Alana Hosick on 2/12/14.
+  Copyright (c) 2014 Alana Hosick. All rights reserved.
+*/
+///////////////////////    Top bar     ///////////////////
+
+"Date" = "дата";
+
+"Find times" = "Найти раза";
+
+///////////////////////    Curiosity    /////////////////////
+
+// page title
+"Curiosity page title" = "Curiosity";
+
+// curiosity sol count
+"Curiosity's trip: Day number %@" = "Поездка Curiosity: День число %@";
+
+//current weather
+"THE CURRENT WEATHER" = "Текущая погода";
+
+//on mars is
+"ON MARS IS:" = "На Марсе:";
+
+// atmosphere
+"SUNNY" = "СОЛНЕЧНЫЙ";
+
+// low temperature in F
+"Low Temperature: %@ F" = "Низкая температура: %@ F";
+
+// high temperature in F
+"High Temperature: %@ F" = "Высокая температура:% @ F";
+
+// pressure
+"The pressure is %@ Pa and getting %@." = "Давление %@ Па и получать %@.";
+
+// higher
+"HIGHER" = "выше";
+
+// lower
+"LOWER" = "ниже";
+
+//last updated
+"Last updated: %@ (Earth time)" = "Последнее обновление: %@ (время Земля)";
+
+///////////////////////    View    /////////////////////
+
+
+// page title
+"View page title" = "вид";
+
+"Midnight" = "полночь";
+
+"e v e n i n g" = "в е ч е р";
+
+"m o r n i n g" = "у т р о";
+
+///////////////////////    Sun    /////////////////////
+
+
+// page title
+"Sun page title" = "Солнце";
+
+// submit button
+"find sunrise/sunset times" = "найти раз восход / закат";
+
+"latitude" = "широта";
+
+"longitude" = "долгота";
+
+"daylight savings?" = "летнее?";
+
+"date" = "дата";
+
+"Sunrise:   %@" = "восход:  %@";
+
+"Sunset:   %@" = "закат:  %@";
+
+"Sunrise / Sunset" = "восход / закат";
+
+///////////////////////    Bodies    /////////////////////
+
+
+// page title
+"Bodies page title" = "Планеты";
+
+// example Mercury on 2014/2/14
+"%@   on   %@:" = "%@   на   %@:";
+
+"%@ kilometers from Earth" = "%@ Километров от Земли";
+
+"Highest point in the sky:" = "Самая высокая точка в небе:";
+
+"around %d:00. (Astronomical time)" = "вокруг %d:00. (Астрономическое время)";
+
+"The sun will rise in the morning and set in the evening." = "Солнце взойдет утром и установить в вечернее время.";
+
+"no location data is available for that body at this time" = "нет данных Расположение не доступна для этого органа в это время";
+
+"The Earth can be seen most of the time.  Usually you look down." = "Земля можно увидеть большую часть времени. Обычно вы посмотрите вниз.";
+
+//find rise set times
+"find rise/set times" = "найти восход / заход раз";
+
+// page title
+"rise/set" = "восход / заход";
+
+// pieces
+// example "Mercury will take the same path accross the sky as the sun
+
+"will take the same path across the sky as the sun" = "pсостоится по тому же пути по небу, как солнце";
+
+"takes the same path across the sky as the sun" = "занимает тот же путь по небу, как солнце";
+
+"took the same path across the sky as the sun" = "взял тот же путь по небу, как солнце";
+
+
+// example
+// "Mercury will rise in the morning, will reach its highest point in the afternoon, and will set in the evening".
+"will rise" = "вырастет";
+
+"rises" = "поднимается";
+
+"rose" = "Роуз";
+
+
+"will set" = "установит";
+
+"sets" = "наборы";
+
+"set" = "набор";
+
+
+"will reach" = "достигнет";
+
+"reaches" = "достигает";
+
+"reached" = "достиг";
+
+
+"in the early morning" = "с раннего утра";
+
+"in the morning" = "утром";
+
+"in the afternoon" = "днем";
+
+"in the evening" = "вечером";
+
+"in the middle of the night" = "в середине ночи";
+
+"and" =  "и";
+
+
+//"%@ %@.  %@ %@ %@, %@ %@ %@." = "%@ %@.  %@ %@ %@ %@ %@ %@.";
+
+
+///////////////////////    Orrery    /////////////////////
+
+
+// page title
+"Orrery page title" = "планетарий";
+
+
+//////////////////////     Planets      ///////////////////////
+
+"sun" = "Солнце";
+"mercury" = "Меркурий";
+"venus" = "Венера";
+"earth" = "земля";
+"moon" = "Луна";
+"mars" = "Марс";
+"ceres" = "Церера";
+"jupiter" = "Юпитер";
+"saturn" = "Сатурн";
+"uranus" = "Уран";
+"neptune" = "Нептун";
+"pluto" = "Плутон";
+"eris" = "Эрис";
+
+
+//////////////////////   Planet rise   //////////////////////
+
+"%@ will rise in the early morning and will set in the afternoon" = "вырастет с раннего утра и установит во второй половине дня";
+"%@ rises in the early morning and sets in the afternoon" = "поднимается рано утром и устанавливает во второй половине дня";
+"%@ rose in the early morning and set in the afternoon" = "вырос рано утром и установить во второй половине дня";
+
+"%@ will rise in the early morning and will set in the evening" = "вырастет с раннего утра и установит вечером";
+"%@ rises in the early morning and sets in the evening" = "поднимается рано утром и устанавливает вечером";
+"%@ rose in the early morning and set in the evening" = "вырос рано утром и установить в вечернее время";
+
+"%@ will rise in the morning and will set in the evening" = "вырастет в первой половине дня и установит вечером";
+"%@ rises in the morning and sets in the evening" = "встает утром и устанавливает вечером";
+"%@ rose in the morning and set in the evening" = "вырос в первой половине дня и установить в вечернее время";
+
+"%@ will rise in the afternoon and will set in the early morning" = "вырастет во второй половине дня и установит с раннего утра";
+"%@ rises in the afternoon and sets in the early morning" = "поднимается во второй половине дня и устанавливает рано утром";
+"%@ rose in the afternoon and set in the early morning" = "вырос во второй половине дня и установить с раннего утра";
+
+"%@ will rise in the afternoon and will set in the middle of the night" = "вырастет во второй половине дня и будет установлен в середине ночи";
+"%@ rises in the afternoon and sets in the middle of the night" = "поднимается во второй половине дня и устанавливает в середине ночи";
+"%@ rose in the afternoon and set in the middle of the night" = "вырос во второй половине дня и установить в середине ночи";
+
+"%@ will rise in the evening and will set in the early morning" = "вырастет в вечернее время и установит с раннего утра";
+"%@ rises in the evening and sets in the early morning" = "поднимается в вечернее и наборов с раннего утра";
+"%@ rose in the evening and set in the early morning" = "вырос в вечернее время и установить с раннего утра";
+
+"%@ will rise in the middle of the night and will set in the early morning" = "вырастет в середине ночи и установит с раннего утра";
+"%@ rises in the middle of the night and sets in the early morning" = "поднимается в середине ночи и садится рано утром";
+"%@ rose in the middle of the night and set in the early morning" = "вырос в середине ночи и установить с раннего утра";
+
+"%@ will rise in the middle of the night and will set in the morning" = "вырастет в середине ночи и установит утром";
+"%@ rises in the middle of the night and sets in the morning" = "поднимается в середине ночи и устанавливает утром";
+"%@ rose in the middle of the night and set in the morning" = "вырос в середине ночи и установить утром";
+
+
+
+
+//////////////////////////   error   ////////////////////////////
+
+"Network Error" = "ошибка сети";
+"Cannot reach %@" = "Невозможно достичь %@";
+"Dismiss" = "Уволить";
+
+
+
+
+
+
+
+

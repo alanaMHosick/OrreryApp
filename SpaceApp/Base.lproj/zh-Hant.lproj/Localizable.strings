@@ -1,0 +1,223 @@
+/* 
+  Localizable.strings
+  SpaceApp
+
+  Created by Alana Hosick on 2/12/14.
+  Copyright (c) 2014 Alana Hosick. All rights reserved.
+*/
+
+///////////////////////    Top bar     ///////////////////
+
+"Date" = "日期";
+
+"Find times" = "尋找倍";
+
+///////////////////////    Curiosity    /////////////////////
+
+// page title
+"Curiosity page title" = "好奇心";
+
+// curiosity sol count
+"Curiosity's trip: Day number %@" = "好奇的行程：第一天編號 %@";
+
+//current weather
+"THE CURRENT WEATHER" = "當前天氣";
+
+//on mars is
+"ON MARS IS:" = "火星是：";
+
+// atmosphere
+"SUNNY" = "晴朗";
+
+// low temperature in F
+"Low Temperature: %@ F" = "低溫：%@ F";
+
+// high temperature in F
+"High Temperature: %@ F" = "高溫：%@ F";
+
+// pressure
+"The pressure is %@ Pa and getting %@." = "壓力是%@帕和獲取%@。";
+
+// higher
+"HIGHER" = "更高";
+
+// lower
+"LOWER" = "下";
+
+//last updated
+"Last updated: %@ (Earth time)" = "最後更新：%@（地球時間）";
+
+///////////////////////    View    /////////////////////
+
+
+// page title
+"View page title" = "視圖";
+
+"Midnight" = "午夜";
+
+"e v e n i n g" = "黃昏";
+
+"m o r n i n g" = "早晨";
+
+///////////////////////    Sun    /////////////////////
+
+
+// page title
+"Sun page title" = "太陽";
+
+// submit button
+"find sunrise/sunset times" = "發現日出/日落時間";
+
+"latitude" = "緯度";
+
+"longitude" = "經度";
+
+"daylight savings?" = "日光節約？";
+
+"date" = "日期";
+
+"Sunrise:   %@" = "日出:  %@";
+
+"Sunset:   %@" = "日落:  %@";
+
+///////////////////////    Bodies    /////////////////////
+
+
+// page title
+"Bodies page title" = "行星";
+
+// example Mercury on 2014/2/14
+"%@   on   %@:" = "%@   上   %@:";
+
+"%@ kilometers from Earth" = "%@ 從地球公里";
+
+"Highest point in the sky:" = "最高點在天空中：";
+
+"around %d:00. (Astronomical time)" = "圍繞 %d: 00 （天文時間）。";
+
+"The sun will rise in the morning and set in the evening." = "太陽升起的早晨和晚上設置。";
+
+"no location data is available for that body at this time" = "沒有位置數據可用於該機構在這個時候";
+
+"The Earth can be seen most of the time.  Usually you look down." = "地球可以看出，大部分時間。通常你往下看。";
+
+//find rise set times
+"find rise/set times" = "發現上升/套次";
+
+// page title
+"rise/set" = "上升/套";
+
+"Sunrise / Sunset" = "日出/日落";
+
+// pieces
+// example "Mercury will take the same path accross the sky as the sun
+
+"will take the same path across the sky as the sun" = "將採取在天空中相同的路徑太陽";
+
+"takes the same path across the sky as the sun" = "需要在天空中相同的路徑，像太陽一樣";
+
+"took the same path across the sky as the sun" = "把劃破長空相同的路徑，像太陽一樣";
+
+
+// example
+// "Mercury will rise in the morning, will reach its highest point in the afternoon, and will set in the evening".
+"will rise" = "西港島線上升";
+
+"rises" = "上升";
+
+"rose" = "玫瑰";
+
+
+"will set" = "將設置";
+
+"sets" = "套";
+
+"set" = "集";
+
+
+"will reach" = "將達到";
+
+"reaches" = "下游";
+
+"reached" = "達";
+
+
+"in the early morning" = "在清晨";
+
+"in the morning" = "在早晨";
+
+"in the afternoon" = "下午";
+
+"in the evening" = "晚上";
+
+"in the middle of the night" = "半夜";
+
+"and" =  "和";
+
+
+//"%@ %@.  %@ %@ %@, %@ %@ %@." = "%@ %@.  %@ %@ %@ %@ %@ %@.";
+
+
+///////////////////////    Orrery    /////////////////////
+
+
+// page title
+"Orrery page title" = "太陽系儀";
+
+
+//////////////////////     Planets      ///////////////////////
+
+"sun" = "太陽";
+"mercury" = "水星";
+"venus" = "金星";
+"earth" = "地球";
+"moon" = "月亮";
+"mars" = "火星";
+"ceres" = "谷神星";
+"jupiter" = "木星";
+"saturn" = "土星";
+"uranus" = "天王星";
+"neptune" = "海王星";
+"pluto" = "冥王星";
+"eris" = "厄里斯";
+
+//////////////////////   Planet rise   //////////////////////
+
+"%@ will rise in the early morning and will set in the afternoon" = "將上升在清晨和下午將設置";
+"%@ rises in the early morning and sets in the afternoon" = "上升在清晨和設置在下午";
+"%@ rose in the early morning and set in the afternoon" = "玫瑰在清晨和下午設置";
+
+"%@ will rise in the early morning and will set in the evening" = "將上升在清晨，將在晚上設置";
+"%@ rises in the early morning and sets in the evening" = "上升在清晨和設置在晚上";
+"%@ rose in the early morning and set in the evening" = "玫瑰在清晨和晚上設置";
+
+"%@ will rise in the morning and will set in the evening" = "將早上起來，並將在晚上設置";
+"%@ rises in the morning and sets in the evening" = "上升，在早晨和設置在晚上";
+"%@ rose in the morning and set in the evening" = "玫瑰在早晨和傍晚設定";
+
+"%@ will rise in the afternoon and will set in the early morning" = "將上升，下午，將在清晨設置";
+"%@ rises in the afternoon and sets in the early morning" = "上升在下午和設置在清晨";
+"%@ rose in the afternoon and set in the early morning" = "玫瑰在下午和清晨的設置";
+
+"%@ will rise in the afternoon and will set in the middle of the night" = "會上升，在下午將在半夜設置";
+"%@ rises in the afternoon and sets in the middle of the night" = "上升在下午和設置在半夜";
+"%@ rose in the afternoon and set in the middle of the night" = "玫瑰在下午和深夜設置";
+
+"%@ will rise in the evening and will set in the early morning" = "將上升到了晚上，並會在清晨設置";
+"%@ rises in the evening and sets in the early morning" = "上升到了晚上，並設置在清晨";
+"%@ rose in the evening and set in the early morning" = "玫瑰在晚上和清晨設置";
+
+"%@ will rise in the middle of the night and will set in the early morning" = "將上升在半夜，將在清晨設置";
+"%@ rises in the middle of the night and sets in the early morning" = "上升，在夜間和套的中間，在清晨";
+"%@ rose in the middle of the night and set in the early morning" = "玫瑰在半夜和清晨設置";
+
+"%@ will rise in the middle of the night and will set in the morning" = "將上升在半夜，將在早上設";
+"%@ rises in the middle of the night and sets in the morning" = "上升在半夜和設置在早上";
+"%@ rose in the middle of the night and set in the morning" = "玫瑰在半夜和早上設置";
+
+
+//////////////////////////   error   ////////////////////////////
+
+"Network Error" = "網絡錯誤";
+"Cannot reach %@" = "達不到 %@";
+"Dismiss" = "解僱";

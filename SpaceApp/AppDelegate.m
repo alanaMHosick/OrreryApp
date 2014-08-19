@@ -1,19 +1,72 @@
 //
 //  AppDelegate.m
-//  SpaceApp
+//  Space
 //
-//  Created by Alana Hosick on 2/12/14.
+//  Created by Alana Hosick on 1/21/14.
 //  Copyright (c) 2014 Alana Hosick. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "PlanetsTableViewController.h"
+#import "ViewerViewController.h"
+#import "CuriosityViewController.h"
+#import "Home.h"
+#import "SWRevealViewController.h"
+#import "SettingsViewController.h"
+#import "OrreryViewController.h"
+#import "UserLocation.h"
+#import "InfoViewController.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+
+@interface AppDelegate()<SWRevealViewControllerDelegate>
+@end
 
 @implementation AppDelegate
 
+@synthesize window = _window;
+@synthesize viewController = _viewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //[[NSUserDefaults standardUserDefaults] registerDefaults:userLocation];
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	self.window = window;
+
+    PlanetsTableViewController *planetsTableViewController = [[PlanetsTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *planetsNavController = [[UINavigationController alloc] initWithRootViewController:planetsTableViewController];
+    
+    OrreryViewController *orreryViewController = [[OrreryViewController alloc] init];
+    UINavigationController *orreryNavController = [[UINavigationController alloc] initWithRootViewController:orreryViewController];
+
+    ViewerViewController *viewerViewController = [[ViewerViewController alloc] init];
+    UINavigationController *viewerNavController = [[UINavigationController alloc] initWithRootViewController:viewerViewController];
+    
+    SettingsViewController *settingsViewController = [[SettingsViewController alloc] init];
+    
+    CuriosityViewController *curiosityViewController = [[CuriosityViewController alloc] init];
+    UINavigationController *curiosityNavController = [[UINavigationController alloc] initWithRootViewController:curiosityViewController];
+    
+    InfoViewController *infoViewController = [[InfoViewController alloc] init];
+    UINavigationController *infoNavController = [[UINavigationController alloc] initWithRootViewController:infoViewController];
+    
+   
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    tabBarController.viewControllers = @[curiosityNavController, orreryNavController, viewerNavController, planetsNavController, infoNavController];//, dateNavController];
+    
+    SWRevealViewController *revealController = [[SWRevealViewController alloc] initWithRearViewController:settingsViewController frontViewController:tabBarController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = revealController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
